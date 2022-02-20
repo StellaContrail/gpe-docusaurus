@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgpe=self.webpackChunkgpe||[]).push([[910],{830:function(s){s.exports=JSON.parse('{"allTagsPath":"/gpe-docusaurus/blog/tags","slug":"/gpe-docusaurus/blog/tags/hello","name":"hello","count":2,"permalink":"/gpe-docusaurus/blog/tags/hello"}')}}]);
