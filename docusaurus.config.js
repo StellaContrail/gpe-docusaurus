@@ -16,7 +16,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Teppei Sasaki', // Usually your GitHub org/user name.
+  organizationName: 'StellaContrail', // Usually your GitHub org/user name.
   projectName: 'gpe-docusaurus', // Usually your repo name.
 
   presets: [
