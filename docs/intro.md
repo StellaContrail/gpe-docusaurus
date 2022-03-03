@@ -20,16 +20,17 @@ sidebar_position: 1
 ## ダウンロード方法
 GPE Solver、およびプロット用変換プログラムは以下のコマンドでダウンロードできる。
 ```bash title="bash"
-wget https://github.com/StellaContrail/gpe/archive/refs/heads/master.zip
-unzip master.zip
+wget https://github.com/StellaContrail/gpe/archive/refs/tags/v1.1.0.zip
+unzip v1.1.0.zip
 ```
 解凍したフォルダの中には２つのフォルダが存在しているが、それぞれ`simulation`がGPE Solver、`misc`がプロット用変換プログラム(Silo Converter)を指している。
+
+[GitHubのReleaseページ](https://github.com/StellaContrail/gpe/releases)
 
 ## ビルド
 プログラムのビルドは`simulation`と`misc`のどちらでも行う必要がある。
 各ディレクトリに入って`make`コマンドを実行すれば良い。
 ```bash title="bash"
-cd master
 ./simulation/make
 ./misc/make
 ```

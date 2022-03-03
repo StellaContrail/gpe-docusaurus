@@ -58,7 +58,7 @@ sidebar_position: 2
 量子渦は右回りの循環を持っており、容器の中心に設置されている。
 設定ファイルを書き終えたらシミュレーションを実行し、上記の設定のもとで計算を行う。
 ```bash title="bash"
-cd ./master/simulation/
+cd ./simulation/
 ./a.out
 ```
 計算には数十分かかるが、以下のようなログが出力された後に計算が完了する。
@@ -122,7 +122,7 @@ VisItでの計算結果の描画を行う。
 
 `misc`フォルダ内のバイナリファイルを実行する。
 ```bash title="bash"
-cd ./master/misc
+cd ./misc
 ./a.out
 ```
 次に入力が求められるが、ここで先程確認した`data_XXXXXX`を入力する。
